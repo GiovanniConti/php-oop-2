@@ -28,6 +28,7 @@ $products = [
     "type" => "shoes",
     "brand" => "Jordan",
     "price" => "400",
+    "sizes" => "xxs - xxl",
   ],
   [
     "category" => "apparel",
@@ -35,6 +36,7 @@ $products = [
     "type" => "shoes",
     "brand" => "Adidas",
     "price" => "350",
+    "sizes" => "xxs - xxl",
   ],
   [
     "category" => "apparel",
@@ -42,5 +44,6 @@ $products = [
     "type" => "Hoodie",
     "brand" => "BAPE",
     "price" => "1400",
+    "sizes" => "xxs - xxl",
   ],
 ];
