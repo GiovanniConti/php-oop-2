@@ -18,17 +18,17 @@ class ProductsTech extends ProductsBasic {
 
     $this->setType($_type);
     $this->setWarranty($_warranty);
+
+    // var_dump($_productData);
   }
 
   public function setType($_type)
   {
     $this->type = $_type;
-    return $this;
   }
 
   public function setWarranty($_warranty)
   {
     $this->warranty = $_warranty;
-    return $this;
   }
 }

@@ -2,7 +2,7 @@
 
 include_once __DIR__ . "/UserBasic.php";
 
-class UserPRemium extends UserBasic {
+class UserPremium extends UserBasic {
   protected $shippingConst = 0;
   protected $discount = "15%";
   protected $exibitionsFreeAccess;

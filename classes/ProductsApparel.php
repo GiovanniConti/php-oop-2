@@ -4,7 +4,7 @@ include_once __DIR__ . "/ProductsBasic.php";
 
 class ProductApparel extends ProductsBasic {
   protected $type;
-  protected $size;
+  protected $sizes;
 
   function __construct(array $_productData) {
     $_name = isset($_productData["name"]) ? $_productData["name"] : "";
@@ -12,12 +12,12 @@ class ProductApparel extends ProductsBasic {
     $_price = isset($_productData["price"]) ? $_productData["price"] : "";
     $_category = isset($_productData["category"]) ? $_productData["category"] : "";
     $_type = isset($_productData["type"]) ? $_productData["type"] : "";
-    $_size = isset($_productData["size"]) ? $_productData["size"] : "";
+    $_sizes = isset($_productData["sizes"]) ? $_productData["sizes"] : "";
 
     parent::__construct($_name, $_brand, $_price, $_category);
     
     $this->setType($_type);
-    $this->setSize($_size);
+    $this->setSize($_sizes);
   }
 
   public function setType($_type)
@@ -26,9 +26,9 @@ class ProductApparel extends ProductsBasic {
     return $this;
   }
 
-  public function setSize($_size)
+  public function setSize($_sizes)
   {
-    $this->size = $_size;
+    $this->sizes = $_sizes;
     return $this;
   }
 }
