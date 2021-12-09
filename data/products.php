@@ -7,6 +7,7 @@ $products = [
     "type" => "smartphone",
     "brand" => "Apple",
     "price" => "1289",
+    "warranty" => "2 years"
   ],
   [
     "category" => "tech",
@@ -14,6 +15,7 @@ $products = [
     "type" => "laptop",
     "brand" => "Apple",
     "price" => "2349",
+    "warranty" => "2 years"
   ],
   [
     "category" => "tech",
@@ -21,6 +23,7 @@ $products = [
     "type" => "smartwatch",
     "brand" => "Apple",
     "price" => "439",
+    "warranty" => "2 years"
   ],
   [
     "category" => "apparel",
